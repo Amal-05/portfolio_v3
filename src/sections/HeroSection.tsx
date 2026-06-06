@@ -46,7 +46,7 @@ const HeroSection = () => {
       </div>
 
       {/* Hero Portrait */}
-      <FadeIn delay={0.6} y={30} className="absolute left-1/2 -translate-x-1/2 z-10 w-[200px] sm:w-[260px] md:w-[330px] lg:w-[400px] bottom-0 translate-y-[5%] sm:translate-y-0">
+      <FadeIn delay={0.6} y={30} className="absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0">
         <Magnet padding={150} strength={3}>
           <img 
             src={myCharacter} 
